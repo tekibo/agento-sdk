@@ -1,0 +1,37 @@
+{
+  "name": "@agento/sdk",
+  "version": "0.1.0",
+  "description": "Official public SDK and template scaffolding engine for Agento plugins and subsystems.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "homepage": "https://agento.tekibo.in/sdk/overview/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tekibo/agento-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tekibo/agento-sdk/issues"
+  },
+  "keywords": [
+    "agento",
+    "agent",
+    "ai",
+    "sdk",
+    "effect",
+    "tools",
+    "mcp",
+    "subsystems",
+    "governance"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ai": "^7.0.31",
+    "effect": "^3.22.1",
+    "zod": "^3.25.76"
+  }
+}
